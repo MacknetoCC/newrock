@@ -1,0 +1,70 @@
+.main{
+    .titulo{
+        margin-top:2rem;
+        margin-bottom:2rem;
+        text-align: center;
+        font-size: 1.8rem;
+        color:#eee;
+    }
+    .team{
+        @include flex(column);
+       .team-name{
+           text-align: center;
+           text-decoration: underline;
+           margin-bottom:2rem;
+       }
+       .containerImg{
+           padding:2rem;
+           border-radius:2rem;
+        @include flex(column);
+
+           .img{
+               border-radius:2rem;
+               width: 80%;
+            }
+           margin-bottom: 2rem;
+
+       }
+       .team_paragrah{
+           padding:2rem;
+           margin-bottom: 2rem;
+           color:#eee; 
+           font-size:1.2rem;} 
+    }
+
+    // Media queries
+    // Small-screen(s)
+    @media (min-width:576px) {}
+
+    //  Media-screen(m)
+    @media (min-width:768px) {
+       
+
+        .titulo {
+            font-size: 2.5rem
+        }
+        .team{
+            .team-name{
+                font-size: 2rem
+            }
+            .team_paragrah{
+                padding:4rem;
+            }
+        }
+    }
+
+    // Large-screen(l)
+    @media (min-width:992px) {
+
+        .titulo {
+            font-size: 3.5rem
+        }
+
+    }
+
+    // Extralarge-screen(xl)
+    @media (min-width:1200px) {
+        
+    }
+    
+}

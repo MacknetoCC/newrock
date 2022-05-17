@@ -1,0 +1,27 @@
+// flex
+@mixin flex($direction, $gap: 0.5rem, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    gap: $gap;
+    justify-content: $align;
+    align-items: center;
+}
+
+@mixin titulo($ancho: 2px) {
+    background: radial-gradient(ellipse at center, #FE2201, #000000);
+    -webkit-text-stroke: $ancho white;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Frijole', cursive;
+    font-size: 1.8rem;
+    transition: 0.7s;
+    -webkit-background-clip: text;
+}
+
+@mixin rotar($giros:36000deg) {
+    transform: rotate($giros);
+    transition-duration: 1s;
+    transition-delay: now;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,292 @@
+.reproductor {
+    width: 100%;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #contenedor {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        transition: 0.7s;
+
+        .box {
+            margin: auto;
+            width: 60%;
+            border: solid 2px red;
+            border-radius: 1rem;
+            box-shadow: 1px 1px 0px hsl(30, 4%, 73%), 2px 2px 0px hsl(45, 2%, 60%), 3px 3px 0px hsl(24, 2%, 50%), 4px 4px 0px hsl(60, 1%, 39%), 5px 5px 0px hsl(0, 0%, 2%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: black;
+            transition: 0.7s;
+
+            .screen {
+                margin: 0.5rem;
+                width: 80%;
+                border-radius: 1rem;
+                background: -webkit-radial-gradient(center, #FE2201, #000000);
+                background: -moz-radial-gradient(center, #FE2201, #000000);
+                background: radial-gradient(ellipse at center, #FE2201, #000000);
+                box-shadow: inset -20px -20px 60px #c40b0b, inset 20px 20px 60px #ff0f0f;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                border: solid 1px #eeeeee;
+
+                .screen_img {
+                    margin-top: 1.5rem;
+                    margin-bottom: 1.5rem;
+                    width: 70%;
+                    border-radius: 1rem;
+                    border: solid 1px #eeeeee;
+                }
+
+                .animar_disco {
+                    border-radius: 50%;
+                    transition: 0.5s;
+                    animation: girar 15s infinite linear;
+                }
+
+                .screen_track {
+                    background: radial-gradient(ellipse at center, #777777, #000000);
+                    -webkit-text-stroke: 0.5px #eee;
+                    background-clip: text;
+                    color: transparent;
+                    font-family: 'Frijole', cursive;
+                    font-size: 1.4rem;
+                    transition: 0.7s;
+                    -webkit-background-clip: text;
+                    text-align: center;
+                    width: 80%;
+                }
+
+                .progress_time {
+                    margin-bottom: 1rem;
+                    width: 90%;
+                    height: 5px;
+                    border-radius: 5px;
+                    background: #d3d3d3;
+                    outline: none;
+                    opacity: 0.7;
+                    -webkit-transition: .2s;
+                    transition: opacity .2s;
+
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        appearance: none;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        z-index: 2;
+                        position: relative;
+                        background: red;
+                        cursor: pointer;
+                    }
+
+                    &::-moz-range-thumb {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        background: red;
+                        z-index: 2;
+                        position: relative;
+                        cursor: pointer;
+                    }
+
+                    &::-moz-range-progress {
+                        background: black;
+                        border-radius: 50%;
+                        height: 100%;
+                    }
+
+                    &::-webkit-progress-value {
+                        background: black;
+                        height: 100%;
+                    }
+                }
+
+                .time {
+                    width: 90%;
+                    z-index: 11;
+                    color: #eee;
+                    margin-top: 1rem;
+                    margin-bottom: 0.5rem;
+                    font-weight: bold;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: space-between;
+
+                    #tiempo2 {
+                        color: #000;
+                    }
+                }
+
+                .icon__volumen {
+                    width: 92%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 0.3rem;
+
+                    .btns_items {
+                        color: white;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .btns {
+                width: 30%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                transition: 0.3s;
+
+                .btns_items {
+                    padding: 5px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale3d(1.8, 1.8, 1.8);
+                        color: white;
+                    }
+
+                    &:active {
+                        cursor: pointer;
+                        transform: scale3d(0.8, 0.8, 0.8);
+                        color: rgb(80, 3, 3);
+                    }
+
+                    &.press {
+                        color: rgb(2, 251, 2);
+                        border-radius: 30%;
+                    }
+                }
+            }
+        }
+
+        #apartado {
+            margin-left: 10%;
+            width: 60%;
+            min-height: 500px;
+            margin-right: 2.7rem;
+            position: relative;
+            background-color: black;
+            border: solid 2px red;
+            border-radius: 1rem;
+            box-shadow: 1px 1px 0px hsl(30, 4%, 73%), 2px 2px 0px hsl(45, 2%, 60%), 3px 3px 0px hsl(24, 2%, 50%), 4px 4px 0px hsl(60, 1%, 39%), 5px 5px 0px hsl(0, 0%, 2%);
+            z-index: 1;
+
+            #letra {
+                margin: auto;
+                width: 200px;
+                height: 200px;
+
+                #analyser_render {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.5;
+                    margin: 0;
+                    position: absolute;
+                    mask-position: bottom;
+                    left: 0;
+                    bottom: 0;
+                    border-bottom-left-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                    z-index: -1;
+
+                    div {
+                        margin-top: 20px;
+                    }
+                }
+
+                div {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+
+                    h3 {
+                        transition: 0.5s;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Media queries
+    // Small-screen(s)
+    @media (min-width:576px) {
+        #contenedor {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            flex-direction: row;
+
+            .col-6 {
+                width: 100%;
+            }
+
+            #apartado {
+                width: 30%;
+                #letra {
+                    padding-left: 0.5rem;
+                    padding-right: 1rem;
+
+                }
+            }
+        }
+    }
+
+    //  Media-screen(m)
+    @media (min-width:768px) {
+        .box {
+            flex-direction: row;
+
+            .screen {
+                width: 100%;
+                margin: 0.5rem 0.2rem 0.5rem 0.5rem
+            }
+
+            .btns {
+                width: 15%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    // Large-screen(l)
+    @media (min-width:992px) {}
+
+    // Extralarge-screen(xl)
+    @media (min-width:1200px) {}
+}
+
+@keyframes girar {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(11520deg);
+    }
+}

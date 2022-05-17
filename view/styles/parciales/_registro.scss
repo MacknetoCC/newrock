@@ -1,0 +1,168 @@
+.registro {
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: rgb(66, 64, 64);
+    @include flex(column);
+    width: 60%;
+    padding: 2rem;
+    h2{
+        text-decoration: underline;
+        margin-bottom:1.5rem;
+    }
+    .registro_form {
+        @include flex(column,3rem);
+
+        img {
+            width: 40%;
+        }
+        .mensaje{
+            // display:none;
+            width: 100%;
+            padding: 0.3rem 0.5rem;
+            text-align: center;
+            border: 0.1rem solid #eee;
+            border-radius: 1rem;
+            background-color: rgb(4, 150, 4);
+        }
+        .mensaje_error{
+            width: 100%;
+            padding: 0.3rem 0.5rem;
+            text-align: center;
+            border: 0.1rem solid #eee;
+            border-radius: 1rem;
+            background-color: rgb(150, 4, 4);
+        }
+        form {
+            .container {
+                margin-bottom: 1.5rem;
+
+                .inputbox {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 1.2rem;
+                }
+
+                .campos {
+                    font-family: 'Shadows Into Light', cursive;
+                    padding: 0.3rem 0.5rem;
+                    height: 100%;
+                    width: 100%;
+                    background: transparent;
+                    border-radius: 0.3rem;
+                    border: 0.1rem solid #eee;
+                    transition: all 0.5s ease-in-out;
+
+                    &:focus {
+                        background: #eee;
+                        color: #000;
+                        margin-top: 0.5rem;
+                        box-shadow: 1px 1px 10px #888888,
+                        -1px -1px 10px #ffffff;
+                    }
+                }
+            }
+
+            .resgistro_btn {
+                width: 40%;
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 0.9rem;
+                font-weight: bold;
+                padding: 0.3rem;
+                border: none;
+                border-radius:0.3rem;
+                margin-top: 0.5rem;
+                background: #eee;
+                transition: all 0.3s ease-in-out;
+                margin-right:2.5rem;
+                &:hover {
+                    transform: scale(1.2);
+                    background: #0f0c0c;
+                    color: #eee;
+                    border: 0.1rem solid #eee;
+                    border-radius:1rem;
+                    cursor: pointer;
+                }
+                &:active{
+                    transform: scale(0.9);
+                    box-shadow: inset 4px 4px 8px #888888,
+                   inset -4px -4px 8px #ffffff;
+                }
+            }
+            .txt{
+                padding: 0.3rem;
+                transition: all 0.5s ease-in-out;
+                &:hover{
+                    cursor: pointer;
+                    color:rgb(0, 255, 234);
+                }
+            }
+        }
+    }
+      // Media queries
+    // Small-screen(s)
+    @media (min-width:576px) {}
+
+    //  Media-screen(m)
+    @media (min-width:768px) {}
+
+    // Large-screen(l)
+    @media (min-width:992px) {
+        width: 100%;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .registro_form {
+            @include flex(column, 3rem);
+
+            img {
+                width: 20%;
+            }
+
+            .mensaje_correcto {
+                // display: none;
+                font-size: 1.4rem;
+            }
+            .mensaje_error {
+                // display: none;
+                font-size: 1.4rem;
+            }
+
+            form {
+                width: 80%;
+
+                .container {
+                    margin-bottom: 1.5rem;
+
+                    .inputbox {
+                        width: 100%;
+                        font-size: 1.4rem;
+                    }
+
+                    .campos {
+                        font-size: 1.4rem;
+                    }
+                }
+
+                .resgistro_btn {
+                    font-size: 1.4rem;
+                    margin-right: 6rem;
+                    margin-bottom: 1.4rem;
+                }
+
+                .txt {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    // Extralarge-screen(xl)
+    @media (min-width:1200px) {}
+}
+

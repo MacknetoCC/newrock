@@ -1,0 +1,9 @@
+.main_form{
+    @include flex(column);
+
+    .ocultar{
+        display:none;
+    }
+}
+@import './iniciarSesion';
+@import './registro';

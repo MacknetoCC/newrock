@@ -1,0 +1,377 @@
+{
+    "banda": "Rat-zinger",
+    "discos": [
+
+        {
+            "id": "cartas",
+            "name": "Cartas al Vaticano",
+            "agno": 2010,
+            "img": "Cartas al vaticano.jpg",
+            "canciones": [{
+                    "titulo": "01 R'n'Roll terror",
+                    "route": "Cartas al vaticano/01 RnRoll Terror.mp3"
+
+                },
+                {
+                    "titulo": "02 Cristal",
+                    "route": "Cartas al vaticano/02 Cristal.mp3"
+                },
+                {
+                    "titulo": "03 Norteamerikkka",
+                    "route": "Cartas al vaticano/03 Norteamerikkka.mp3"
+                },
+                {
+                    "titulo": "04 Soltad a la bestia",
+                    "route": "Cartas al vaticano/04 Soltad a la bestia.mp3"
+                },
+                {
+                    "titulo": "05 Matar a Rat-zinger",
+                    "route": "Cartas al vaticano/05 Matar a Ratzinger.mp3"
+                },
+                {
+                    "titulo": "06 Mi navaja",
+                    "route": "Cartas al vaticano/06 Mi navaja.mp3"
+                },
+                {
+                    "titulo": "07 Enemigo publiko",
+                    "route": "Cartas al vaticano/07 Enemigo publiko.mp3"
+                },
+                {
+                    "titulo": "08 Salpikados de sangre",
+                    "route": "Cartas al vaticano/08 Salpikados de sangre.mp3"
+                },
+                {
+                    "titulo": "09 El kaos y el orden",
+                    "route": "Cartas al vaticano/09 El kaos y el orden.mp3"
+                },
+                {
+                    "titulo": "10 Detrás de la kolmena",
+                    "route": "Cartas al vaticano/10 Detrás de la kolmena.mp3"
+                },
+                {
+                    "titulo": "11 Ingobernable",
+                    "route": "Cartas al vaticano/11 Ingobernable.mp3"
+                },
+                {
+                    "titulo": "12 Lider",
+                    "route": "Cartas al vaticano/12 Líder.mp3"
+                },
+                {
+                    "titulo": "13 Nido de ratas",
+                    "route": "Cartas al vaticano/13 Nido de ratas.mp3"
+                },
+                {
+                    "titulo": "14 Plazara",
+                    "route": "Cartas al vaticano/14 Plazara.mp3"
+                },
+                {
+                    "titulo": "15 Eskupo en tu cara",
+                    "route": "Cartas al vaticano/15 Eskupo en su cara.mp3"
+                }
+            ]
+        },
+        {
+            "id": "cronicas",
+            "name": "Crónicas de la destrucción",
+            "agno": 2012,
+            "img": "Cronicas de la destruccion.jpg",
+            "canciones": [{
+                    "titulo": "01 Dicen que soy",
+                    "route": "Crónicas de la destrucción/01 Dicen que soy.mp3"
+
+                },
+                {
+                    "titulo": "02 Odio tu puta nación",
+                    "route": "Crónicas de la destrucción/02 Odio tu puta nación.mp3"
+
+                },
+                {
+                    "titulo": "03 Apartate",
+                    "route": "Crónicas de la destrucción/03 Apártate.mp3"
+
+                },
+                {
+                    "titulo": "04 9 mm",
+                    "route": "Crónicas de la destrucción/04 9mm.mp3"
+
+                },
+                {
+                    "titulo": "05 Soy un  kalashnikov",
+                    "route": "Crónicas de la destrucción/05 Soy un kalashnikov.mp3"
+
+                },
+                {
+                    "titulo": "06 Envenename",
+                    "route": "Crónicas de la destrucción/06 Narcosanto.mp3"
+
+                },
+                {
+                    "titulo": "07 Narcosanto",
+                    "route": "Crónicas de la destrucción/07 Envenename.mp3"
+
+                },
+                {
+                    "titulo": "08 Balas y ruido",
+                    "route": "Crónicas de la destrucción/08 Balas y Ruido.mp3"
+
+                },
+                {
+                    "titulo": "09 Dios salve al rey",
+                    "route": "Crónicas de la destrucción/09 Dios salve al Rey.mp3"
+
+                },
+                {
+                    "titulo": "10 Extiende el sindrome",
+                    "route": "Crónicas de la destrucción/10 Extiende el síndrome.mp3"
+
+                },
+                {
+                    "titulo": "11 Atrapados en el destructor",
+                    "route": "Crónicas de la destrucción/11 Atrapados en el destructor.mp3"
+
+                },
+                {
+                    "titulo": "12 Dentro de ti",
+                    "route": "Crónicas de la destrucción/12 Dentro de ti.mp3"
+
+                },
+                {
+                    "titulo": "13 Border line",
+                    "route": "Crónicas de la destrucción/13 Border line.mp3"
+
+                }
+            ]
+        },
+        {
+            "id": "rock",
+            "name": "Rock'n'roll para hijos de perra",
+            "agno": 2014,
+            "img": "rock'n'roll para hijos de perra.jpg",
+            "canciones": [{
+                    "titulo": "01 Rock'n'roll para hijos de perra",
+                    "route": "Rock'n'roll para hijos de perra/01 RocknRoll para hijos de perra.mp3"
+
+                },
+                {
+                    "titulo": "02 No habrá piedad para nadie",
+                    "route": "Rock'n'roll para hijos de perra/02 No habrá piedad para nadie.mp3"
+                },
+                {
+                    "titulo": "03 L.E.Y",
+                    "route": "Rock'n'roll para hijos de perra/03 LEY.mp3"
+                },
+                {
+                    "titulo": "04 Amen",
+                    "route": "Rock'n'roll para hijos de perra/04 Amén.mp3"
+                },
+                {
+                    "titulo": "05 Diez minutos más",
+                    "route": "Rock'n'roll para hijos de perra/05 Diez minutos más.mp3"
+                },
+                {
+                    "titulo": "06 Patria",
+                    "route": "Rock'n'roll para hijos de perra/06 Patria.mp3"
+                },
+                {
+                    "titulo": "07 Tu seras nuestro Dios",
+                    "route": "Rock'n'roll para hijos de perra/07 Tu serás nuestro dios.mp3"
+                },
+                {
+                    "titulo": "08 Aplastandote",
+                    "route": "Rock'n'roll para hijos de perra/08 Aplastándote.mp3"
+                },
+                {
+                    "titulo": "09 Asesinato en IV reich",
+                    "route": "Rock'n'roll para hijos de perra/09 Asesinato en IV Reich.mp3"
+                },
+                {
+                    "titulo": "10 Tu miedo es una enfermedad",
+                    "route": "Rock'n'roll para hijos de perra/10 Tu miedo es una enfermedad.mp3"
+                },
+                {
+                    "titulo": "11 Dios salve a Ronnie Biggs",
+                    "route": "Rock'n'roll para hijos de perra/11 Dios salve a Ronnie Biggs.mp3"
+                },
+                {
+                    "titulo": "12 Teneis speed",
+                    "route": "Rock'n'roll para hijos de perra/12 Tenéis speed.mp3"
+                }
+            ]
+        },
+        {
+            "id": "larga",
+            "name": "Larga vida al infierno",
+            "agno": 2016,
+            "img": "Larga vida al inierno.jpg",
+            "canciones": [{
+                    "titulo": "01 Larga vida al infierno",
+                    "route": "Larga vida al infierno/01 Larga Vida al Infierno.mp3"
+
+                },
+                {
+                    "titulo": "02 Únete al terror",
+                    "route": "Larga vida al infierno/02 Únete al Terror.mp3"
+                },
+                {
+                    "titulo": "03 Terrorismo y delincuencia",
+                    "route": "Larga vida al infierno/03 Terrorismo y Delincuencia.mp3"
+                },
+                {
+                    "titulo": "04 Uno de los nuestros",
+                    "route": "Larga vida al infierno/04 Uno de los nuestros.mp3"
+                },
+                {
+                    "titulo": "05 No soy de Nazareth",
+                    "route": "Larga vida al infierno/05  No soy de Nazareth.mp3"
+                },
+                {
+                    "titulo": "06 Sicario del santo padre",
+                    "route": "Larga vida al infierno/06 Sicario del Santo Padre.mp3"
+                },
+                {
+                    "titulo": "07 Todo lo que toco",
+                    "route": "Larga vida al infierno/07 Todo lo que toco.mp3"
+                },
+                {
+                    "titulo": "08 La puta verdad",
+                    "route": "Larga vida al infierno/08 La Puta Verdad.mp3"
+                },
+                {
+                    "titulo": "09 Kaos en mi",
+                    "route": "Larga vida al infierno/09 El Kaos en mi.mp3"
+                },
+                {
+                    "titulo": "10 Volver al punto cero",
+                    "route": "Larga vida al infierno/10 Volver al punto cero.mp3"
+                },
+                {
+                    "titulo": "11 Electozombie",
+                    "route": "Larga vida al infierno/11 Elektrozombie.mp3"
+                },
+                {
+                    "titulo": "12 Esperando al dealer",
+                    "route": "Larga vida al infierno/12 Esperando al Dealer.mp3"
+                },
+                {
+                    "titulo": "13 Renegados",
+                    "route": "Larga vida al infierno/13 Renegados.mp3"
+                }
+            ]
+        },
+        {
+            "id": "santa",
+            "name": "Santa Calavera",
+            "agno": 2018,
+            "img": "Santa calavera.jpg",
+            "canciones": [{
+                    "titulo": "01 Santa Calavera",
+                    "route": "Santa Calavera/01 Santa Calavera.mp3"
+
+                },
+                {
+                    "titulo": "02 Tú ya no eres él",
+                    "route": "Santa Calavera/02 Tú ya no eres él.mp3"
+                },
+                {
+                    "titulo": "03 Golpeando al hombre muerto",
+                    "route": "Santa Calavera/03 Golpeando al hombre muerto.mp3"
+                },
+                {
+                    "titulo": "04 Tu pasajero",
+                    "route": "Santa Calavera/04 Tu pasajero.mp3"
+                },
+                {
+                    "titulo": "05 Ya no me quedan días de gloria",
+                    "route": "Santa Calavera/05 Ya no quedan días de gloria.mp3"
+                },
+                {
+                    "titulo": "06 No hay mañana",
+                    "route": "Santa Calavera/06 No hay mañana.mp3"
+                },
+                {
+                    "titulo": "07 Antimental",
+                    "route": "Santa Calavera/07 Antimental.mp3"
+                },
+                {
+                    "titulo": "08 Mil perras",
+                    "route": "Santa Calavera/08 Mil perras.mp3"
+                },
+                {
+                    "titulo": "09 Verbobedecer",
+                    "route": "Santa Calavera/09 Verbobedecer.mp3"
+                },
+                {
+                    "titulo": "10 Má allá del limite",
+                    "route": "Santa Calavera/10 Más allá del límite.mp3"
+                },
+                {
+                    "titulo": "11 De toda forma de poder",
+                    "route": "Santa Calavera/11 Toda Forma de Poder.mp3"
+                },
+                {
+                    "titulo": "12 Indestructibles",
+                    "route": "Santa Calavera/12 Indestructibles.mp3"
+                }
+            ]
+        },
+        {
+            "id": "tengan",
+            "name": "Tengan cuidado ahí fuera",
+            "agno": 2021,
+            "img": "tengan cuidado hay fuera.jpg",
+            "canciones": [{
+                    "titulo": "01 No queda nadie en pie",
+                    "route": "Tengan cuidado ahí fuera/01 No queda nadie en pie.mp3"
+                },
+                {
+                    "titulo": "02 En la cámara de gas",
+                    "route": "Tengan cuidado ahí fuera/02 En la cámara de gas.mp3"
+                },
+                {
+                    "titulo": "03 Muerta a la maquina",
+                    "route": "Tengan cuidado ahí fuera/03 Muerte a la máquina.mp3"
+                },
+                {
+                    "titulo": "04 Mi medicina",
+                    "route": "Tengan cuidado ahí fuera/04 Mi medicina.mp3"
+                },
+                {
+                    "titulo": "05 Soy un animal",
+                    "route": "Tengan cuidado ahí fuera/05 Soy un animal.mp3"
+                },
+                {
+                    "titulo": "06 Cadáveres",
+                    "route": "Tengan cuidado ahí fuera/06 Cadáveres.mp3"
+                },
+                {
+                    "titulo": "07 Greetings from corea",
+                    "route": "Tengan cuidado ahí fuera/07 Greetings From Corea.mp3"
+                },
+                {
+                    "titulo": "08 Golpe de estado en mendicil",
+                    "route": "Tengan cuidado ahí fuera/08 Golpe de estado en Mendivil.mp3"
+                },
+                {
+                    "titulo": "09 Seremos un millón",
+                    "route": "Tengan cuidado ahí fuera/09 Seremos un millón.mp3"
+                },
+                {
+                    "titulo": "10 Te odio",
+                    "route": "Tengan cuidado ahí fuera/10 Te odio.mp3"
+                },
+                {
+                    "titulo": "11 Mientras te pudres de asco",
+                    "route": "Tengan cuidado ahí fuera/11 Mientras te pudres de asco.mp3"
+                },
+                {
+                    "titulo": "12 Una,grande y libre",
+                    "route": "Tengan cuidado ahí fuera/12 Una Grande Y Libre.mp3"
+                },
+                {
+                    "titulo": "13 El lobo",
+                    "route": "Tengan cuidado ahí fuera/13 El lobo.mp3"
+                }
+            ]
+        }
+    ]
+}

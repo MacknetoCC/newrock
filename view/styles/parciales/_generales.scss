@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/img/fondo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Shadows Into Light', cursive;
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(center, #FE2201, #000000);
+    background: -moz-radial-gradient(center, #FE2201, #000000);
+    background: radial-gradient(ellipse at center, #FE2201, #000000);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    margin: 0.2rem;
+    color: #eee;
+}
+
+h3 {
+    color: #eeeeee;
+}
+.main{
+    width: 100%;
+}
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @include flex(column)
+}
+
+
+.none {
+    display: none;
+}
+
